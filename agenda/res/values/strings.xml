@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">agenda</string>
+    <string name="BorrarTodo">Borror Todo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="add">Agregar Contacto</string>
+    <string name="name" />
+    <string name="tel" />
+    <string name="dir" />
+    <string name="correo" />
+    <string name="Modificar">Modificar</string>
+    <string name="Borrar">Borrar</string>
+    <string name="enombre" />
+    <string name="title_activity_list_view_loader">ListViewLoader</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

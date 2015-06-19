@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RuffiniCalc</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="mainPol">Introduce los valores del polinomio, separados por coma.</string>
+    <string name="calc">Calcular</string>
+    <string name="tut">Tutorial</string>
+    <string name="title_activity_raices">Raices</string>
+    <string name="title_activity_tutorial">Tutorial</string>
+    <string name="tutorialDetalles">Esta app te facilita el hacer ruffini o resolver ecuaciones de segundo grado, para ello solo ingresa los números que acompañan al polinomio, separados por coma.</string>
+
+</resources>

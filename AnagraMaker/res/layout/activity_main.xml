@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBB33"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#FF8800"
+        android:src="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/AnagramaRae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AnagramaTotal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:onClick="Anagrama2"
+        android:text="Buscar palabras" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="Escribe debajo las letras que tengas"
+        android:textColor="#669900"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/numMinimo"
+        android:layout_alignRight="@+id/numMinimo"
+        android:layout_below="@+id/texto"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:text="Longitud mínima:"
+        android:textColor="#669900" />
+
+    <EditText
+        android:id="@+id/numMinimo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/texto"
+        android:layout_alignRight="@+id/texto"
+        android:layout_below="@+id/editText2"
+        android:layout_weight="1"
+        android:background="#FFCC66"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:textColor="#669900" />
+
+    <Button
+        android:id="@+id/AnagramaTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numMinimo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:onClick="Anagrama1"
+        android:text="Todas las combinaciones" />
+
+    <EditText
+        android:id="@+id/texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:background="#FFCC66"
+        android:ems="10"
+        android:hint="Letras"
+        android:inputType="textShortMessage"
+        android:textColor="#669900"
+        android:textSize="25dp" />
+
+</RelativeLayout>
